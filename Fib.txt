@@ -1,0 +1,21 @@
+
+fun main ( var c , var d , )
+{
+	var a
+	var b
+	a =1;
+	b = 1;
+	call fibonacci (a, b,);
+}
+
+fun fibonacci ( var x , var y ,)
+{
+	var sum
+	var h
+	h = sum;
+	sum = x + y;
+	y = h;
+
+	if (sum< 1000)
+		call fibonacci (sum, y,);
+}
